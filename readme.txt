@@ -1,2 +1,8 @@
-Git is a version control system.
-Git is a free software.
+项目说明：
+实现功能：
+1、在命令行中使用-c参数加数字N（1 <= N <= 1000000）控制生成数独终局的数量并将数独终局输出到文件中
+sudoku.exe -c 20 将生成20个数独终局到文件中
+2、在命令行中使用-s参数加文件名的形式求解数独，并将结果输出到文件
+sudoku.exe -s absolute_path_of_puaalefile 程序将从路径中读取数独题目，并将数独题目的一个可行解输出至与sudoku.exe同目录的sudoku.exe中
+
+要求：生成的9*9数独终局最左上角的数字固定（8 + 9） % 9 + 1 = 9
